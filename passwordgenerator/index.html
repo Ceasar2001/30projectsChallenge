@@ -8,15 +8,16 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1><span>Password</span> Generator</h1>
-        <div class="display">
-            <input type="text" id="password" placeholder="Password">
-            <img src="images/copy.png" alt="copy">
+        <div class="container">
+            <h1><span>Password</span> Generator</h1>
+            <div class="display">
+                <input type="text" id="password" placeholder="Password">
+                <img src="images/copy.png" alt="copy" onclick="copyPassword()">
+            </div>
+    
+            <button onclick="createPassword()"><img src="images/add.png" alt="add icon">Generate Password</button>
         </div>
-
-        <button><img src="images/add.png" alt="add icon">Generate Password</button>
-    </div>
+ 
 
     <script src="script.js"></script>
 </body>
