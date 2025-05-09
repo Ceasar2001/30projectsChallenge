@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <p>Enter URL</p>
+        <input type="text" placeholder="Enter URL here..." id="qrText">
+
+        <div class="imgBox">
+            <img src="" alt="Qrcode" id="qrImage">
+        </div>
+
+        <button onclick="generateQR()">Generate</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
